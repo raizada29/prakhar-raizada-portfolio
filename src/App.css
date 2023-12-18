@@ -1,0 +1,11 @@
+.superContainer
+{
+   background-color: #0a192f; 
+  /* --tw-bg-opacity:1;
+  background-color: rgb(15 25 34 / var(--tw-bg-opacity)); */
+  
+}
+.mainContainer
+{
+  display: flex;
+}

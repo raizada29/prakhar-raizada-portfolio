@@ -1,0 +1,224 @@
+@media only screen and (min-width: 480px) {
+    /* styles for devices with a minimum screen width of 480px */
+
+    .triangle-left {
+        z-index: 99;
+        opacity: 0.2;
+        width: 0;
+        height: 0;
+        border-top: 78vh solid transparent;
+        border-right: 140vh solid #64ffda;
+        border-bottom: 0vh solid transparent;
+        position: absolute;
+        margin-left: 20vw;
+        right: 0;
+        box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.571);
+    }
+    .triangle-right {
+        z-index: 99;
+        opacity: 0.4;
+        width: 0;
+        height: 0;
+        border-top: 0vh solid transparent;
+        border-right: 140vh solid #64ffda;
+        border-bottom: 78vh solid transparent;
+        position: absolute;
+        margin-left: 20vw;
+        right: 0;
+        top: 0;
+    }
+    .main-portfolio
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    margin-top: 12vh;
+    margin-left: 12vw;
+    margin-right: 8vw;
+}
+#spanGreen
+{
+    color: #64ffda;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+ .horizontalLine
+    {
+        width: 280px;
+        border-bottom: 1px solid #8892b0;
+        margin-bottom: 18px;
+        margin-left: 20px;
+    }
+    .main-aboutMe span
+    {
+        font-size: 23px;
+    }
+    .main-projects span
+    {
+        font-size: 23px;
+    }
+    #aboutMeHead
+    {
+        font-weight: 700;
+        color: aliceblue;
+    }
+.main-portfolio #HI
+{
+    color: #64ffda;
+    font-size: large;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.main-portfolio #myName
+{
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    font-size: 70px;
+    font-weight: 600;
+}
+.main-portfolio .changingText
+{
+
+    font-family: 'Poppins', sans-serif;
+    color: #8892b0;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1;
+}
+.third-line
+{
+    font-family: 'Poppins', sans-serif;
+    color: #8892b0;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1;
+}
+.para
+{
+    color: #8892b0;
+    font-size: 16px;
+    padding-top: 2rem;
+    width: 35vw;
+}
+#accenture
+{
+    color: #64ffda;
+}
+#MWL
+{
+    word-spacing: 90rem;
+}
+    }
+
+    @media only screen and (max-width: 480px) {
+        /* styles for devices with a maximum screen width of 480px */
+
+
+    .main-portfolio
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 18vh;
+        margin-top: 12vh;
+        margin-left: 5vw;
+        margin-right: 8vw;
+    }
+    #spanGreen
+{
+    color: #64ffda;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+.main-aboutMe span
+{
+    font-size: 23px;
+}
+.main-projects span
+{
+    font-size: 23px;
+}
+#aboutMeHead
+{
+    font-weight: 700;
+    color: aliceblue;
+}
+ .horizontalLine
+    {
+        width: 280px;
+        border-bottom: 1px solid #8892b0;
+        margin-bottom: 18px;
+        margin-left: 20px;
+    }
+    .triangle-left {
+        z-index: 99;
+        opacity: 0.2;
+        width: 0;
+        height: 0;
+        border-top: 30vh solid transparent;
+        border-right: 70vh solid #64ffda;
+        border-bottom: 0vh solid transparent;
+        position: absolute;
+        margin-top: 70%;
+        box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.571);
+        right: 0;
+    }
+    .triangle-right {
+        z-index: 99;
+        opacity: 0.4;
+        width: 0;
+        height: 0;
+        border-top: 0vh solid transparent;
+        border-right: 70vh solid #64ffda;
+        border-bottom: 35vh solid transparent;
+        position: absolute;
+        margin-left: 20vw;
+        right: 0;
+        top: 0;
+    }
+    .main-portfolio #HI
+    {
+        color: #64ffda;
+        font-size: 16px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    
+    .main-portfolio #myName
+    {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .main-portfolio .changingText
+    {
+        font-family: 'Poppins', sans-serif;
+        color: #8892b0;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1;
+    }
+    .third-line
+    {
+        font-family: 'Poppins', sans-serif;
+        color: #8892b0;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1;
+    }
+    .para
+    {
+        color: #8892b0;
+        font-size: 15px;
+        padding-top: 2rem;
+    }
+    #accenture
+    {
+        color: #64ffda;
+    }
+    #MWL
+    {
+        word-spacing: 90rem;
+    }
+        }

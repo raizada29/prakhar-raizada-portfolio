@@ -1,0 +1,172 @@
+@media only screen and (min-width: 480px) {
+    /* styles for devices with a minimum screen width of 480px */
+    .triangle-leftt {
+        z-index: 99;
+        opacity: 0.2;
+        width: 0;
+        height: 0;
+        border-top: 57.5vh solid transparent;
+        border-right: 140vh solid #64ffda;
+        border-bottom: 0vh solid transparent;
+        position: absolute;
+        margin-left: 20vw;
+        right: 0;
+        margin-top: 20%;
+        box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.571);
+    }
+    .triangle-rightt {
+        z-index: 99;
+        opacity: 0.4;
+        width: 0;
+        height: 0;
+        border-top: 0vh solid transparent;
+        border-right: 140vh solid #64ffda;
+        border-bottom: 58vh solid transparent;
+        position: absolute;
+        margin-left: 20vw;
+        right: 0;
+        margin-bottom: 20%;
+    }
+
+.contactMe-main
+{
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#spanGreen
+{
+    font-size: 15px;
+}
+#GITouch-head
+{
+font-size: 50px;
+font-weight: 700;
+}
+#git-para
+{
+    width: 60%;
+    margin-top: 20px;
+    color: #8892b0;
+    font-weight: 400;
+    font-size: 18px;
+}
+#sh-btn
+{
+    z-index: 100;
+    margin-top: 60px;
+    background-color: #0a192f;
+    border-color:#64ffda;
+    color: #64ffda;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+}
+#sh-btn:hover
+{
+    z-index: 100;
+    margin-top: 60px;
+    background-color: #64ffda;
+    border-color:#64ffda;
+    color: #0a192f;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all .4s;
+    font-family: 'Roboto Mono', monospace;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    /* styles for devices with a minimum screen width of 480px */
+
+    .triangle-leftt {
+        z-index: 99;
+        opacity: 0.2;
+        width: 0;
+        height: 0;
+        border-top: 28vh solid transparent;
+        border-right: 70vh solid #64ffda;
+        border-bottom: 0vh solid transparent;
+        position: absolute;
+        margin-left: 20vw;
+        right: 0;
+        margin-top: 540px;
+        box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.571);
+    }
+    .triangle-rightt {
+        z-index: 99;
+        opacity: 0.4;
+        width: 0;
+        height: 0;
+        border-top: 0vh solid transparent;
+        border-right: 70vh solid #64ffda;
+        border-bottom: 28vh solid transparent;
+        position: absolute;
+        margin-left: 20vw;
+        right: 0;
+        margin-bottom: 540px;
+    }
+
+.contactMe-main
+{
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#spanGreen
+{
+    font-size: 14px;
+}
+#GITouch-head
+{
+font-size: 40px;
+font-weight: 700;
+}
+#git-para
+{
+    width: 80%;
+    margin-top: 20px;
+    color: #8892b0;
+    font-weight: 400;
+    font-size: 16px;
+}
+#sh-btn
+{
+    margin-top: 60px;
+    background-color: #0a192f;
+    border-color:#64ffda;
+    color: #64ffda;
+    height: 4rem;
+    width: 9rem;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+}
+#sh-btn:hover
+{
+    margin-top: 60px;
+    background-color: #64ffda;
+    border-color:#64ffda;
+    color: #0a192f;
+    height: 4rem;
+    width: 9rem;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all .4s;
+    font-family: 'Roboto Mono', monospace;
+}
+}

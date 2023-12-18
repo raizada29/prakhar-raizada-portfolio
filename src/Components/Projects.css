@@ -1,0 +1,181 @@
+@media only screen and (min-width: 480px) {
+    /* styles for devices with a minimum screen width of 480px */
+.main-projects
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw
+}
+.allProjects
+{
+    padding-top: 60px;
+    color: aliceblue;
+    font-size: 20px;
+}
+#headDesk-span-pScreens
+{
+    display: none;
+}
+#aboutMeHead
+{
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+.netflix-clone span
+{
+    font-weight: 600;
+}
+.description-box
+{
+    font-size: 16px;
+    background-color: #112240;
+    width: 430px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.571);
+    border-radius: 5px;
+}
+.netflixVideo
+{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.netflixVideo video
+{
+    border-radius: 10px;
+    width: 50vw;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.571);
+}
+.head-desc
+{
+    z-index: 8;
+    position: absolute;
+    margin-top: 20px;
+}
+.techUsed span
+{
+    font-size: 13px;
+    font-weight: 100;
+    margin-right: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+.netFlix-redirect
+{
+    margin-top: 30px;
+    background-color: #0a192f;
+    border-color:#64ffda;
+    color: #64ffda;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+}
+.netFlix-redirect:hover
+{
+    transition: all 0.4s ease-in-out;
+    font-size: 18px;
+    background-color: #64ffda;
+    border-color:#64ffda;
+    color: #0a192f;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .main-projects
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw
+    }
+    .allProjects
+    {
+        padding-top: 60px;
+        color: aliceblue;
+        font-size: 14px;
+    }
+    .horizontalLine
+    {
+        width: 130px;
+    }
+    #aboutMeHead
+    {
+       font-size: 18px;
+    }
+    .netflix-clone span
+    {
+        font-weight: 600;
+    }
+    .description-box
+    {
+        font-size: 15px;
+        background-color: #112240;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin-top: 140px;
+        box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.571);
+        border-radius: 5px;
+    }
+    .netflixVideo
+    {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .netflixVideo video
+    {
+        border-radius: 10px;
+        width: 100%;
+        box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.571);
+    }
+    .head-desc
+    {
+        z-index: 8;
+        position: absolute;
+        margin-top: 25px;
+    }
+    .head-desc #headDesk-span-pcScreens
+    {
+        display: none;
+    }
+    #headDesk-span-pScreens
+    {
+        font-size: 20px;
+    }
+    .techUsed span
+    {
+        font-size: 12px;
+        font-weight: 100;
+        margin-right: 20px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .netFlix-redirect
+    {
+        margin-top: 30px;
+        background-color: #0a192f;
+        border-color:#64ffda;
+        color: #64ffda;
+        height: 2.5rem;
+        width: 8rem;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .netFlix-redirect:hover
+    {
+        transition: all 0.4s ease-in-out;
+        font-size: 18px;
+        background-color: #64ffda;
+        border-color:#64ffda;
+        color: #0a192f;
+    }
+}
