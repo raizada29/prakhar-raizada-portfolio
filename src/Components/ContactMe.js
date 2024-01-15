@@ -1,9 +1,16 @@
 import React, {useEffect} from 'react'
 import './ContactMe.css';
 function ContactMe() {
-  function redirectMail(){
-    window.open("https://netflix-clone-3fb1f.web.app/");
-  }
+  const redirectMail = () => {
+    const email = 'mail.raizadaprakhar@gmail.com';
+    const subject = 'Your Subject';
+    const body = 'Your Message';
+
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    // Open the default email client
+    window.location.href = mailtoLink;
+  };
   useEffect(() => {
     const triangLefttVar = document.getElementById("triangle-leftt-id");
     const triangRighttVar = document.getElementById("triangle-rightt-id");

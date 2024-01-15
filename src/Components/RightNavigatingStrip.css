@@ -15,7 +15,7 @@
     z-index: 100;
 }
 
-.main-right-strip span
+.main-right-strip a
 {
     color: #8892b0;
     text-orientation: mixed;
@@ -24,7 +24,7 @@
     font-family: 'Roboto Mono', monospace;
     cursor: pointer;
 }
-.main-right-strip span:hover
+.main-right-strip a:hover
 {
     color:white;
 }
