@@ -4,6 +4,7 @@ import $ from 'jquery';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
 import ContactMe from './ContactMe';
+import ExperiencePage from './ExperiencePage';
 export default function MainPortFolio() {
   (function () {
     var words = ["MAKE","PRODUCE","FORM","ASSEMBLE","CONSTRUCT","MANUFACTURE","FABRICATE","CREATE","SHAPE","MODEL"],
@@ -14,7 +15,7 @@ export default function MainPortFolio() {
   })();
   return (
     <>
-    <div className='main-portfolio'>
+    <div className='main-portfolio' id='main-portfolio-id'>
       <span id='HI'>
         Hi, my name is
       </span>
@@ -34,6 +35,7 @@ export default function MainPortFolio() {
       <div className="triangle-right"></div>
       <div className="triangle-left"></div>
       <AboutMe />
+      <ExperiencePage />
       <Projects />
       <ContactMe />
     </div>

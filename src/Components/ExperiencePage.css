@@ -1,0 +1,254 @@
+@media only screen and (min-width: 480px) {
+.Experience-page-main-class{
+    display: flex;
+    flex-direction: column;
+    margin-top: 34vh;
+    overflow-x: hidden;
+    color: white;
+}
+.headingAndLine-expPage
+{
+    display: flex;
+    opacity: 0;
+    transform: translatex(200px);
+    transition: opacity 1.5s ease,transform 1.5s ease;
+}
+.headingAndLine-expPage.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  #aboutMeHead-expPage
+{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.mainExperience-tab-class
+{
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 95px;
+    overflow: auto;
+    opacity: 0;
+    transform: translatex(200px);
+    transition: opacity 1.5s ease,transform 1.5s ease;
+}
+.mainExperience-tab-class.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.mainExperience-tab-class::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .mainExperience-tab-class::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background-color: #0a192f;
+    /* border: 1px solid #cacaca; */
+  }
+  
+  .mainExperience-tab-class::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #64ffda;
+  }
+  .comapany-name-heading-first
+  {
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 30px;
+  }
+  .comapany-name-heading-second
+  {
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+  }
+  .sub-heading
+  {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #64ffda;
+  }
+.lefthandside-nav
+{
+    width: 35%;
+}
+.lefthandside-nav ul
+{
+    list-style: none;
+    position: absolute;
+    height: 100%;
+    width: 29%;
+}
+.lefthandside-nav ul li
+{
+    list-style: none;
+    padding-left: 5px;
+}
+/* .lefthandside-nav ul li a:hover
+{
+    background-color: #64ffda;
+    color: #0a192f !important;
+    width: 80%;
+    border-radius: 5px;
+    padding: 0 10px 0;
+} */
+.lefthandside-nav ul li a, .lefthandside-nav ul li a:link,
+.lefthandside-nav ul li a:visited{
+    text-decoration: none;
+    color: red;
+  }
+  
+  .lefthandside-nav ul li a:hover,
+  .lefthandside-nav ul li a:active,
+  .lefthandside-nav ul li a:focus{
+    background-color: #64ffda;
+    color: #0a192f !important;
+    width: 80%;
+    border-radius: 5px;
+    padding: 0 10px 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+#primary-list-item
+{
+    margin-top:50px ;
+    font-weight: 600;
+    font-size: 20px;
+    color: aliceblue;
+}
+#primary-list-item a
+{
+    margin-top:50px ;
+    font-weight: 600;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+#secondary-list-item
+{
+    color: #64ffda;
+    margin-left: 1.5rem;
+    margin-top: 10px;
+    font-weight: 500;
+}
+#secondary-list-item a {
+    color: #64ffda;
+    margin-left: 1.5rem;
+    margin-top: 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.righthandside-nav
+{
+    width: 60%;
+    padding: 0 30px 0;
+    border-left: 1px solid #8892b0;
+    height: fit-content;
+    overflow: auto;
+}
+.righthandside-nav p{
+    color: #8892b0;
+}
+
+}
+
+@media only screen and (max-width: 480px)
+{
+    .Experience-page-main-class{
+        margin-top: 25vh;
+        color: white;
+    }
+    .headingAndLine-expPage
+    {
+        display: flex;
+        opacity: 0;
+        transform: translatex(50px);
+        transition: opacity 1.5s ease,transform 1.5s ease;
+    }
+    .headingAndLine-expPage.show {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    #aboutMeHead-expPage{
+        font-size: 18px;
+        font-weight: 700;
+        /* color: aliceblue; */
+    }
+    .lefthandside-nav
+    {
+      margin-top: 20px;
+    }
+    #ul-list-id
+    {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+    }
+    .lefthandside-nav ul li li a
+    {
+      text-decoration: none;
+      font-weight: 500;
+    }
+    #primary-list-item 
+    {
+      margin-top: 20px;
+      color: aliceblue !important;
+    }
+
+   #primary-list-item a
+    {
+      font-weight: 700;
+      font-size: 19px;
+      color: aliceblue;
+    }
+    .righthandside-nav
+    {
+      border-top: 1px solid #8892b0;
+      padding-top: 35px;
+      margin-top: 50px;
+      height: 500px;
+      overflow: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #para
+    {
+      color: #8892b0;
+    }
+    .sub-heading
+    {
+      color: #64ffda;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    #secondary-list-item a
+    {
+      color: #64ffda;
+    }
+    .comapany-name-heading-first, .comapany-name-heading-second
+    {
+      font-weight: 700;
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+    .righthandside-nav::-webkit-scrollbar {
+      width: 2.5px;
+    }
+    
+    .righthandside-nav::-webkit-scrollbar-track {
+      border-radius: 4px;
+      background-color: #0a192f;
+      /* border: 1px solid #cacaca; */
+    }
+    
+    .righthandside-nav::-webkit-scrollbar-thumb {
+      border-radius: 4px;
+      background-color: #64ffda;
+    }
+
+}

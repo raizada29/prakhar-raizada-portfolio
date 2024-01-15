@@ -5,13 +5,20 @@
     {
         color: #8892b0;
         display:inline-block;
-        margin-left: 5vw
+        margin-left: 9vw
     }
-
     .headingAndLine
     {
+        margin-bottom: 20px;
         display: flex;
+        opacity: 0;
+        transform: translatex(200px);
+        transition: opacity 1.5s ease,transform 1.5s ease;
     }
+    .headingAndLine.show {
+        opacity: 1;
+        transform: translateX(0);
+      }
     .main-aboutMe .horizontalLine
     {
         width: 280px;
@@ -48,7 +55,15 @@
         display: grid;
         grid-template-columns: auto auto;
         margin-top: 30px;
+        opacity: 0;
+        transform: translatex(200px);
+        transition: opacity 1.5s ease,transform 2s ease;
     }
+    .allTech.show {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
     .allTech span
     {
         font-size: 16px;
@@ -58,8 +73,8 @@
         display: flex;
         padding-top: 40px;
     }
-    .main-aboutMe img
-    {
+
+    .animated-img {
         width: 260px;
         height: 300px;
         margin-left: 550px;
@@ -67,7 +82,16 @@
         z-index: 1;
         position: absolute;
         box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.571);
-    }
+        opacity: 0;
+        transform: translatex(100px);
+        transition: opacity 0.5s ease,transform 1.5s ease;
+      }
+  
+      .animated-img.show {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
     .img-frame
     {
         border:2px solid #64ffda;
@@ -76,11 +100,14 @@
         border-radius: 5px;
         margin-top: 20px;
     }
+    .main-aboutMe #spanGreen
+    {
+        font-size: 22px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
     /* styles for devices with a minimum screen width of 480px */
-
     .main-aboutMe
     {
         color: #8892b0;
@@ -88,11 +115,19 @@
         justify-content: center;
         display: flex;
         flex-direction: column;
+        overflow-x: hidden;
     }
     .headingAndLine
     {
         display: flex;
+        opacity: 0;
+        transform: translatex(100px);
+        transition: opacity 1.5s ease,transform 1.5s ease;
     }
+    .headingAndLine.show {
+        opacity: 1;
+        transform: translateX(0);
+      }
     .main-aboutMe .horizontalLine
     {
         width: 150px;
@@ -126,15 +161,23 @@
         padding-top: 40px;
         width: 90%;
     }
-    .main-aboutMe img
-    {   margin-top: 553px;
+    .animated-img {
+        margin-top: 553px;
         width: 250px;
         margin-left: 7vw;
         border-radius: 5px;
         z-index: 1;
         position: absolute;
         box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.571);
-    }
+        opacity: 0;
+        transform: translateX(-100px);
+        transition: opacity 0.5s ease, transform 1.5s ease;
+      }
+  
+      .animated-img.show {
+        opacity: 1;
+        transform: translateX(0);
+      }
     .img-frame
     {
         border:2px solid #64ffda;
@@ -154,7 +197,14 @@
         display: grid;
         grid-template-columns: auto auto;
         margin-top: 30px;
+        opacity: 0;
+        transform: translateX(50px);
+        transition: opacity 1.5s ease,transform 2s ease;
     }
+    .allTech.show {
+        opacity: 1;
+        transform: translateX(0);
+      }
     .allTech span
     {
         font-size: 16px;

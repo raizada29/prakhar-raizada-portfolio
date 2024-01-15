@@ -2,21 +2,27 @@
     /* styles for devices with a minimum screen width of 480px */
     .triangle-leftt {
         z-index: 99;
-        opacity: 0.2;
+        opacity: 1;
         width: 0;
         height: 0;
-        border-top: 57.5vh solid transparent;
+        border-top: 56.5vh solid transparent;
         border-right: 140vh solid #64ffda;
         border-bottom: 0vh solid transparent;
         position: absolute;
         margin-left: 20vw;
         right: 0;
-        margin-top: 20%;
+        margin-top: 19.85%;
         box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.571);
+        transform: translateX(200px);
+        transition: opacity 1.5s ease,transform 1.5s ease;
+    }
+    .triangle-leftt.show {
+      opacity: 0.2;
+      transform: translateX(0);
     }
     .triangle-rightt {
         z-index: 99;
-        opacity: 0.4;
+        opacity: 1;
         width: 0;
         height: 0;
         border-top: 0vh solid transparent;
@@ -26,6 +32,12 @@
         margin-left: 20vw;
         right: 0;
         margin-bottom: 20%;
+        transform: translateX(200px);
+        transition: opacity 1.5s ease,transform 1.5s ease;
+    }
+    .triangle-rightt.show {
+        opacity: 0.4;
+      transform: translateX(0);
     }
 
 .contactMe-main
@@ -37,6 +49,8 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow-x: hidden;
+    margin-top: 45vh;
 }
 #spanGreen
 {
@@ -90,10 +104,10 @@ font-weight: 700;
 
     .triangle-leftt {
         z-index: 99;
-        opacity: 0.2;
+        opacity: 1;
         width: 0;
         height: 0;
-        border-top: 28vh solid transparent;
+        border-top: 27vh solid transparent;
         border-right: 70vh solid #64ffda;
         border-bottom: 0vh solid transparent;
         position: absolute;
@@ -101,10 +115,16 @@ font-weight: 700;
         right: 0;
         margin-top: 540px;
         box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.571);
+        /* transform: translateX(100px); */
+        transition: opacity 1.5s ease;
+    }
+    .triangle-leftt.show {
+      opacity: 0.2;
+      /* transform: translateX(0); */
     }
     .triangle-rightt {
         z-index: 99;
-        opacity: 0.4;
+        opacity: 1;
         width: 0;
         height: 0;
         border-top: 0vh solid transparent;
@@ -114,7 +134,12 @@ font-weight: 700;
         margin-left: 20vw;
         right: 0;
         margin-bottom: 540px;
+        transition: opacity 1.5s ease;
     }
+    .triangle-rightt.show {
+        opacity: 0.4;
+        /* transform: translateX(0); */
+      }
 
 .contactMe-main
 {
@@ -125,6 +150,8 @@ font-weight: 700;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow-x: hidden;
+    margin-top: 65vh;
 }
 #spanGreen
 {

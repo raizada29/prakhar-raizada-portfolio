@@ -1,4 +1,17 @@
 @media only screen and (min-width: 480px) {
+    @keyframes mainLeftNavigationStrip {
+        from {
+          transform: translateY(150px); /* Optional: You can add a sliding effect */
+        }
+        to {
+          transform: translateY(0);
+        }
+      }
+      
+      .main-left-navigator
+      {
+        animation: mainLeftNavigationStrip 1.5s ease-out; /* Adjust the duration and easing as needed */
+      }
     /* styles for devices with a minimum screen width of 480px */
     .main-left-navigator
     {
@@ -22,6 +35,11 @@
     {
         padding-top:2.5vh;
         font-size: 18px;
+        cursor: pointer;
+    }
+    .main-left-navigator ul li:hover
+    {
+        color: white;
     }
     .center-line
     {
@@ -37,6 +55,7 @@
         .main-left-navigator
     {
         display: none;
+        overflow-x: hidden;
     }
     
         }
