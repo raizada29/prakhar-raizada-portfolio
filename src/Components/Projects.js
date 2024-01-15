@@ -5,6 +5,9 @@ function Projects() {
   {
     window.open("https://netflix-clone-3fb1f.web.app/");
   }
+  function amazonRedirect(){
+    window.open("https://amazon-clone-kf7f.onrender.com");
+  }
   useEffect(() => {
     const headingAndLineVar = document.getElementById("headingAndLine-id-projects");
     const netflixVideoVar = document.getElementById("netflixVideo-id");
@@ -75,7 +78,7 @@ function Projects() {
                  new playlists of recommended tracks based on your existing playlists and more.
                 </div>
                 <div className="techUsed" id='techUsedAmazon'><span>React</span><span>TMDB</span><span>Firebase</span><span>HTML5</span><span>CSS3</span></div>
-                <button onClick={redirectNetflix} className='netFlix-redirect'>Let's go</button>
+                <button onClick={amazonRedirect} className='netFlix-redirect'>Let's go</button>
                 </div>
             </div>
 
